@@ -14,7 +14,7 @@ public class BaseClass {
 
 
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\ivanka.stoilova\\Downloads\\chromedriver_win32");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\ivanka.stoilova\\Downloads\\chromedrivernew\\chromedriver.exe");
         driver = new ChromeDriver();
     }
 

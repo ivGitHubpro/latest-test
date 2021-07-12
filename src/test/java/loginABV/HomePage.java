@@ -14,7 +14,7 @@ public class HomePage extends BaseClass {
     @Before
     public void SetUp(){
         setUp();
-        OpenBrowser("");
+        OpenBrowser("https://www.sinoptik.bg/sofia-bulgaria-100727011/5-days");
     }
 
     @Test
