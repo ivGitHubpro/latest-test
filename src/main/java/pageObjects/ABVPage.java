@@ -11,7 +11,7 @@ public class ABVPage {
     protected String url = "";
 
     @FindBy(how = How.ID, using = "bla bla")
-    private WebElement PASSWORDFIELD;
+    private WebElement PASSWORD;
 
     @FindBy(how = How.ID, using = "bla bla")
     private WebElement USERNAME;
@@ -32,7 +32,7 @@ public class ABVPage {
 
     public void logIn(String username, String password){
 
-    PASSWORDFIELD.sendKeys(password);
+    PASSWORD.sendKeys(password);
     USERNAME.sendKeys(username);
     }
 
